@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Trang chủ"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/thongbao"
+        android:icon="@drawable/baseline_notifications_24"
+        android:title="Thông báo"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tuychon"
+        android:icon="@drawable/baseline_menu_24"
+        android:title="Tuỳ chọn"
+        app:showAsAction="ifRoom" />
+
+</menu>
