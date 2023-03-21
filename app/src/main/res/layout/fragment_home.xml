@@ -54,70 +54,70 @@
     <com.google.android.flexbox.FlexboxLayout
         android:layout_marginTop="155dp"
         android:background="@drawable/bo_tron"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="19dp"
         app:flexWrap="wrap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
-            android:layout_margin="13dp"
-            android:layout_width="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_width="104dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/baseline_qr_code_scanner_24"
             android:text="Quét mã"
             android:textColor="@color/black"
             android:textAllCaps="false"
+            app:layout_flexGrow="1"
             >
         </Button>
         <Button
-            android:layout_margin="13dp"
-            android:layout_width="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_width="104dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/baseline_access_clock_24"
             android:text="Thời gian"
             android:textColor="@color/black"
             android:textAllCaps="false"
+            app:layout_flexGrow="1"
             >
         </Button>
         <Button
-            android:layout_margin="13dp"
-            android:layout_width="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_width="104dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/baseline_calendar_month_24"
             android:text="Lịch"
             android:textColor="@color/black"
             android:textAllCaps="false"
+            app:layout_flexGrow="1"
             >
         </Button>
         <Button
-            android:layout_margin="13dp"
-            android:layout_width="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_width="104dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/baseline_menu_book_24"
             android:text="Học tập"
             android:textColor="@color/black"
             android:textAllCaps="false"
+            app:layout_flexGrow="1"
             >
         </Button>
         <Button
-            android:layout_margin="13dp"
-            android:layout_width="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_width="104dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/baseline_info_24"
             android:text="Thông tin"
             android:textColor="@color/black"
             android:textAllCaps="false"
+            app:layout_flexGrow="1"
             >
         </Button>
 
