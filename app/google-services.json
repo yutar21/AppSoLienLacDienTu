@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "996146546330",
+    "firebase_url": "https://sikuebkacdientu-default-rtdb.firebaseio.com",
+    "project_id": "sikuebkacdientu",
+    "storage_bucket": "sikuebkacdientu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996146546330:android:9f741c8c4b7c784fbc8123",
+        "android_client_info": {
+          "package_name": "com.example.solienlacdientu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996146546330-nfjh96tcp83q01cmvftf7v48etg5gpvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCyGKOyqyM0OymM5J4FcuZtt2ZiSK3a34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996146546330-nfjh96tcp83q01cmvftf7v48etg5gpvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

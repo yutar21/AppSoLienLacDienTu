@@ -25,6 +25,9 @@
         android:layout_width="match_parent"
         android:layout_height="200dp">
         <LinearLayout
+            android:id="@+id/btn_profile"
+            android:onClick="onClick"
+            android:clickable="true"
             android:layout_marginLeft="10dp"
             android:layout_centerVertical="true"
             android:layout_width="wrap_content"
@@ -47,17 +50,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <TextView
+                    android:id="@+id/name_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Đào Xuân Đan"
+                    android:text="Tên"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:textAllCaps="true"
                     />
                 <TextView
+                    android:id="@+id/username_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="dtc2054801030019"
+                    android:text="mã sinh viên"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:textAllCaps="true"
@@ -75,6 +80,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/btn_QR"
             android:layout_margin="15dp"
             android:layout_width="104dp"
             android:layout_height="wrap_content"
@@ -100,6 +106,7 @@
             >
         </Button>
         <Button
+            android:id="@+id/btn_lich"
             android:layout_margin="15dp"
             android:layout_width="104dp"
             android:layout_height="wrap_content"

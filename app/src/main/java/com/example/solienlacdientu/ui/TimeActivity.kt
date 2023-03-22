@@ -18,21 +18,18 @@ class TimeActivity : AppCompatActivity() {
         backButton.setOnClickListener {
             onBackPressed()
         }
-
-
         val listView: ListView? = findViewById(R.id.lv_time)
         val data = listOf(
             Triple("1", "6:45", "7:35"),
             Triple("2", "7:40", "8:30"),
             Triple("3", "8:40", "9:30"),
-            Triple("4", "6:45", "7:35"),
-            Triple("5", "6:45", "7:35"),
-            Triple("6", "6:45", "7:35"),
-            Triple("7", "6:45", "7:35"),
-            Triple("8", "6:45", "7:35"),
-            Triple("9", "6:45", "7:35"),
-            Triple("10", "6:45", "7:35"),
-            // Thêm các phần tử khác tương tự
+            Triple("4", "9:40", "10:30"),
+            Triple("5", "10:35", "11:25"),
+            Triple("6", "13:00", "13:50"),
+            Triple("7", "13:55", "14:45"),
+            Triple("8", "14:55", "15:45"),
+            Triple("9", "15:55", "16:45"),
+            Triple("10", "16:50", "17:40"),
         )
         listView?.adapter = TimeListAdapter(this,data)
     }

@@ -32,6 +32,7 @@
 
         />
     <Button
+        android:id="@+id/logoutbtn"
         android:text="Đăng xuất"
         android:textColor="#F32121"
         android:textSize="18dp"

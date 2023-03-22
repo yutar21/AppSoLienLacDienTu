@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.ProfileActivity">
+    <Toolbar
+        android:id="@+id/tool_bar"
+        android:background="#3F51B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:background="@drawable/baseline_navigate_before_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:textAllCaps="true"
+            android:text="Thông tin cá nhân"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </Toolbar>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Họ và tên"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:text="name"
+                android:gravity="right"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Mã sinh viên"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/username_tv"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:text="ma sinh vien"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Ảnh đại diện"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:text="chưa cập nhập"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:textColor="#E91E63"
+                android:layout_weight="1"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
