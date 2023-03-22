@@ -13,9 +13,7 @@ import android.widget.TextView
 import android.widget.Toast
 import com.example.solienlacdientu.R
 import com.example.solienlacdientu.data.user
-import com.example.solienlacdientu.ui.LichActivity
-import com.example.solienlacdientu.ui.ProfileActivity
-import com.example.solienlacdientu.ui.TimeActivity
+import com.example.solienlacdientu.ui.*
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -25,6 +23,8 @@ import com.google.zxing.integration.android.IntentIntegrator
 
 class HomeFragment : Fragment() {
 
+    lateinit var btn_thongtin:Button
+    lateinit var btn_hoc:Button
     lateinit var btn_time : Button
     lateinit var btn_profile :LinearLayout
     lateinit var name_tv :TextView
@@ -45,11 +45,21 @@ class HomeFragment : Fragment() {
     ): View? {
         var view  = inflater.inflate(R.layout.fragment_home, container, false)
         // Inflate the layout for this fragment
+        btn_thongtin = view.findViewById(R.id.btn_thongtin)
+        btn_hoc = view.findViewById(R.id.btn_hoc)
         btn_lich = view.findViewById(R.id.btn_lich)
         btn_QR = view.findViewById(R.id.btn_QR)
         username_tv = view.findViewById(R.id.username_tv)
         name_tv = view.findViewById(R.id.name_tv)
         btn_time = view.findViewById(R.id.btn_time)
+        btn_thongtin.setOnClickListener {
+            val intent = Intent(activity, ThongTinActivity::class.java)
+            startActivity(intent)
+        }
+        btn_hoc.setOnClickListener {
+            val intent = Intent(activity, HocTapActivity::class.java)
+            startActivity(intent)
+        }
         btn_time.setOnClickListener {
             val intent = Intent(activity, TimeActivity::class.java)
             startActivity(intent)

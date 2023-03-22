@@ -119,6 +119,7 @@
             >
         </Button>
         <Button
+            android:id="@+id/btn_hoc"
             android:layout_margin="15dp"
             android:layout_width="104dp"
             android:layout_height="wrap_content"
@@ -131,6 +132,7 @@
             >
         </Button>
         <Button
+            android:id="@+id/btn_thongtin"
             android:layout_margin="15dp"
             android:layout_width="104dp"
             android:layout_height="wrap_content"

@@ -12,7 +12,6 @@ import com.example.solienlacdientu.data.Task
 import java.text.SimpleDateFormat
 import java.util.*
 
-data class Task(val title: String, val description: String, val date: Date)
 
 class LichActivity : AppCompatActivity() {
     private lateinit var calendarView: CalendarView
@@ -28,7 +27,7 @@ class LichActivity : AppCompatActivity() {
         }
         // Khởi tạo danh sách công việc tĩnh với ngày 23/3/2023
         val date = Calendar.getInstance().apply {
-            set(2023, 2, 24) // Lưu ý tháng bắt đầu từ 0
+            set(2023, 2, 23) // Lưu ý tháng bắt đầu từ 0
         }.time
         taskList = mutableListOf(
             Task("Họp nhóm", "Họp nhóm với đồng nghiệp lúc 9h sáng", date),
@@ -56,3 +55,6 @@ class LichActivity : AppCompatActivity() {
         return dateFormat.format(date)
     }
 }
+
+
+
